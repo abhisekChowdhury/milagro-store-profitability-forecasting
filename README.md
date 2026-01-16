@@ -1,5 +1,29 @@
 # Milagro Store Profitability Forecasting
 
+## Case Attribution
+
+This project is based on the business case **“Milagro: Predicting Store Profitability at a Fast-Casual Restaurant Chain”**,  
+originally written by Prof. Robert Freund and Phil Zakahi.
+
+The analysis and modeling work in this repository represents my own
+implementation and interpretation of the case, adapted and extended
+for educational and portfolio purposes.
+
+## How to Run
+
+### Option 1: Run in Google Colab (Recommended)
+1. Open the notebook:
+   `notebooks/profitability_modeling.ipynb`
+2. Upload the notebook to Google Colab
+3. Upload the CSV files from the `data/` folder when prompted
+4. Run all cells top to bottom
+
+### Option 2: Run Locally
+1. Clone the repository
+2. Install dependencies:
+	pip install pandas numpy statsmodels scikit-learn matplotlib
+3. Run the notebook using Jupyter:
+
 ## Problem Statement
 A fast-casual restaurant chain is expanding aggressively and needs to
 forecast profitability for 48 new store locations currently under construction.
@@ -37,3 +61,8 @@ tool when business constraints are present.
 
 ## Tech Stack
 Python, pandas, numpy, statsmodels, scikit-learn
+
+## Data Disclaimer
+The dataset used in this project is based on a classroom business case
+and is shared here strictly for educational and demonstration purposes.
+
